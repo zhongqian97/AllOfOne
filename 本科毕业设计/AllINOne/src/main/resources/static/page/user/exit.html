@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>exit</title>
+<script type="text/javascript" src="../../js/jquery.min.js"></script>
+<script type="text/javascript">
+$.ajax({
+	url : "/user/exit",
+	type : "post",
+	success : function(data) {
+	}
+});
+window.sessionStorage.clear();
+window.localStorage.clear();
+window.location.href = '../../index.html';
+</script>
+</head>
+<body>
+
+</body>
+</html>

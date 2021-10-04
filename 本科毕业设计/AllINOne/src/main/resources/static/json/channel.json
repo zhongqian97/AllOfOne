@@ -1,0 +1,19 @@
+[{
+	"id": "123",
+	"builder": "zxczxc",
+	"name": "物联网频道1",
+	"task": "灯控系统",
+	"channel": "123123"
+}, {
+	"id": "234",
+	"builder": "zxczxc",
+	"name": "物联网频道2",
+	"task": "RSS系统",
+	"channel": "234234"
+}, {
+	"id": "345",
+	"builder": "zxczxc",
+	"name": "物联网频道3",
+	"task": "风扇系统",
+	"channel": "345345"
+}]

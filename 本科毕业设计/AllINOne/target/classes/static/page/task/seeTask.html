@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>添加任务</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="../../layui/css/layui.css" media="all" />
+	<link rel="stylesheet" href="../../css/font_eolqem241z66flxr.css" media="all" />
+</head>
+<body class="childrenBody">
+	<form class="layui-form">
+		<div class="layui-form-item">
+			<label class="layui-form-label">任务名称</label>
+			<div class="layui-input-block">
+				<input type="text" class="layui-input" lay-verify="required" id="name" placeholder="" disabled>
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">软件位置</label>
+			<div class="layui-input-block">
+				<input type="text" class="layui-input" lay-verify="required" id="path" placeholder="" disabled>
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">软件显示脚本位置</label>
+			<div class="layui-input-block">
+				<input type="text" class="layui-input"  lay-verify="required" id="jspath" placeholder="" disabled>
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">是否公开</label>
+			<div class="layui-input-block">
+				<input type="text" class="layui-input" id="show" placeholder="true or false" disabled>
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">任务介绍</label>
+			<div class="layui-input-block">
+				<textarea placeholder="" class="layui-textarea" id="intro" disabled></textarea>
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">功能介绍</label>
+			<div class="layui-input-block">
+				<textarea placeholder="" class="layui-textarea" id="help" disabled></textarea>
+			</div>
+		</div>
+	</form>
+	<script type="text/javascript" src="../../layui/layui.js"></script>
+	<script type="text/javascript" src="seeTask.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+/*table ,tr td*/
+table ,tbody tr td{
+    border:1px solid red
+}
+/*tbody*/
+tbody.rep {
+    display:block;
+    height:500px;
+    overflow:auto;
+}
+/*thead, tbody tr*/
+tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+
+table {
+    width:400px;
+}
+
+html body {
+	height:100%;
+}

@@ -1,0 +1,19 @@
+[{
+	"id": "123",
+	"userName": "qweqwe2",
+	"password": "qweqwe2",
+	"role": "device",
+	"ownedUser": "qweqwe"
+},{
+	"id": "234",
+	"userName": "asdasd",
+	"password": "asdasd",
+	"role": "device",
+	"ownedUser": "qweqwe"
+},{
+	"id": "123",
+	"userName": "qweqwe",
+	"password": "qweqwe",
+	"role": "device",
+	"ownedUser": "qweqwe"
+}]
